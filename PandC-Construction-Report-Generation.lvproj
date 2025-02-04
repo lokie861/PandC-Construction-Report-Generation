@@ -24,10 +24,8 @@
 		<Item Name="Add Datasource.vi" Type="VI" URL="../Add Datasource.vi"/>
 		<Item Name="Create Datasets.vi" Type="VI" URL="../Create Datasets.vi"/>
 		<Item Name="Generate Report.vi" Type="VI" URL="../Generate Report.vi"/>
-		<Item Name="Generation word specific.vi" Type="VI" URL="../Subvi/Generation word specific.vi"/>
 		<Item Name="Home Page.vi" Type="VI" URL="../Home Page.vi"/>
 		<Item Name="Init.vi" Type="VI" URL="../Init.vi"/>
-		<Item Name="Resize Headers.vi" Type="VI" URL="../Subvi/Resize Headers.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -147,6 +145,7 @@
 			<Item Name="Create Datasets.ctl" Type="VI" URL="../ctl/Create Datasets.ctl"/>
 			<Item Name="Database Selector.ctl" Type="VI" URL="../ctl/Database Selector.ctl"/>
 			<Item Name="Generate Report.ctl" Type="VI" URL="../ctl/Generate Report.ctl"/>
+			<Item Name="Generation word specific.vi" Type="VI" URL="../Subvi/Generation word specific.vi"/>
 			<Item Name="Get Columns from Query.vi" Type="VI" URL="../Subvi/Get Columns from Query.vi"/>
 			<Item Name="Get Data.vi" Type="VI" URL="../Subvi/Get Data.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
@@ -156,6 +155,7 @@
 			<Item Name="Read Data Source.vi" Type="VI" URL="../Subvi/Read Data Source.vi"/>
 			<Item Name="Read Dataset.vi" Type="VI" URL="../Subvi/Read Dataset.vi"/>
 			<Item Name="Remove Tree Underscore.vi" Type="VI" URL="../Subvi/Remove Tree Underscore.vi"/>
+			<Item Name="Resize Headers.vi" Type="VI" URL="../Subvi/Resize Headers.vi"/>
 			<Item Name="Save Data Sets.vi" Type="VI" URL="../Subvi/Save Data Sets.vi"/>
 			<Item Name="Save Data Source.vi" Type="VI" URL="../Subvi/Save Data Source.vi"/>
 			<Item Name="Save Report As PDF 2012 NIVerified.vi" Type="VI" URL="../Subvi/Save Report As PDF 2012 NIVerified.vi"/>
@@ -217,7 +217,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{48CB23AA-4D93-4D49-9939-3D7E27600499}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">PandC-Construction-Report-Generation</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.1</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.2</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">20008014</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
@@ -267,7 +267,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7411C572-83FD-43BB-9A80-039250245ED9}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Report Generation.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../BUILDS/Application/Report Generation.exe</Property>
